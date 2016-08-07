@@ -1,10 +1,21 @@
+source: https://www.git-tower.com/blog/git-cheat-sheet/
+
 ##### GIT NOTES #####
 
+#### Local Changes ####
+1- changed files in your working directory               : git status
+2- changes to tracked files                              : git diff
+3- add all current changes to the next commit            : git add .
+4- add some changes in <file> to the next commit         : git add -p <file>
+5- commit all local changes in tracked files             : git commit -a
+6- commit previously staged changes                      : git commit
+7- change the last commit(dont amend published commits!) : git commit --amend
+
 #### Branches & Tags ####
-- list all existing branches                            : git branch -av
-- switch HEAD branch                                    : git checkout <branch>
-- create a new branch based on your current HEAD        : git branch <new-branch>
-- create a new tracking branch based on a remote branch : git checkout --track <remote/branch>
-- delete a local branch                                 : git branch -d <branch>
-- mark the current commit with a tag                    : git tag <tag-name>
+1- list all existing branches                            : git branch -av
+2- switch HEAD branch                                    : git checkout <branch>
+3- create a new branch based on your current HEAD        : git branch <new-branch>
+4- create a new tracking branch based on a remote branch : git checkout --track <remote/branch>
+5- delete a local branch                                 : git branch -d <branch>
+6- mark the current commit with a tag                    : git tag <tag-name>
 
