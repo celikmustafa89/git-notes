@@ -1,0 +1,5 @@
+##### GIT NOTES #####
+
+#### Branches & Tags ####
+- list all existing branches                        :
+- switch HEAD branch                                :
