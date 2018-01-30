@@ -38,7 +38,8 @@ source: https://www.git-tower.com/blog/git-cheat-sheet/
 ? 4- download all changes from <remote>, 
      but dont integrate into HEAD                          : git fetch <remote>
 ? 5- download changes and merge/integrate into HEAD        : git pull <remote> <branch>
-+ 6- publish local changes on a remote                     : git push <remote> <branch>
++ 6- publish local changes on a remote
+     (also create remote branch)                           : git push <remote> <branch>
 + 7- delete a branch on the remote                         : git branch -dr <remote/branch>
 ? 8- publish your tags                                     : git push --tags
 
