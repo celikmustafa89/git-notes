@@ -43,3 +43,15 @@ source: https://www.git-tower.com/blog/git-cheat-sheet/
 + 7- delete a branch on the remote                         : git branch -dr <remote/branch>
 ? 8- publish your tags                                     : git push --tags
 
+
+### GITHUB NEW REPO START SCREEN NOTES ###
+…or create a new repository on the command line
+echo "# evam-intelligence" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/evamcep/evam-intelligence.git
+git push -u origin master
+…or push an existing repository from the command line
+git remote add origin https://github.com/evamcep/evam-intelligence.git
+git push -u origin master
